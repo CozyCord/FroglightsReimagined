@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "up": "froglightsreimagined:block/gray_froglight_top",
+    "down": "froglightsreimagined:block/gray_froglight_top",
+    "west": "froglightsreimagined:block/gray_froglight_side",
+    "east": "froglightsreimagined:block/gray_froglight_side",
+    "north": "froglightsreimagined:block/gray_froglight_side",
+    "south": "froglightsreimagined:block/gray_froglight_side",
+    "particle": "froglightsreimagined:block/gray_froglight_top"
+  }
+}

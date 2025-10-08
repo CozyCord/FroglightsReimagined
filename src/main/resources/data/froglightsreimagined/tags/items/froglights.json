@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "froglightsreimagined:red_froglight",
+    "froglightsreimagined:orange_froglight",
+    "froglightsreimagined:yellow_froglight",
+    "froglightsreimagined:lime_froglight",
+    "froglightsreimagined:green_froglight",
+    "froglightsreimagined:cyan_froglight",
+    "froglightsreimagined:light_blue_froglight",
+    "froglightsreimagined:blue_froglight",
+    "froglightsreimagined:purple_froglight",
+    "froglightsreimagined:magenta_froglight",
+    "froglightsreimagined:pink_froglight",
+    "froglightsreimagined:brown_froglight",
+    "froglightsreimagined:white_froglight",
+    "froglightsreimagined:light_gray_froglight",
+    "froglightsreimagined:gray_froglight",
+    "froglightsreimagined:black_froglight",
+    "minecraft:ochre_froglight",
+    "minecraft:verdant_froglight",
+    "minecraft:pearlescent_froglight"
+  ]
+}

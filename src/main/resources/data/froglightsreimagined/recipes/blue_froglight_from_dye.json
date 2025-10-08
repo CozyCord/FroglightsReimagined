@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "group": "froglight_recolor",
+    "ingredients": [
+        {
+            "tag": "froglightsreimagined:froglights"
+        },
+        {
+            "item": "minecraft:blue_dye"
+        }
+    ],
+    "result": {
+        "item": "froglightsreimagined:blue_froglight"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "group": "froglight_recolor",
+    "ingredients": [
+        {
+            "tag": "froglightsreimagined:froglights"
+        },
+        {
+            "item": "minecraft:glowstone_dust"
+        }
+    ],
+    "result": {
+        "item": "minecraft:ochre_froglight"
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "froglightsreimagined:block/pink_froglight"
+    },
+    "axis=x": {
+      "model": "froglightsreimagined:block/pink_froglight",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "froglightsreimagined:block/pink_froglight",
+      "x": 90
+    }
+  }
+}

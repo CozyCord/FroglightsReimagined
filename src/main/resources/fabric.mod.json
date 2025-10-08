@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "cozystudioscore",
+	"version": "${version}",
+	"name": "FroglightsReimagined",
+	"description": "We felt like Froglights needed some more love, so we created a variety of colors, blocks, and crafting recipes for an amazing block.",
+	"authors": [
+		"Tokimi",
+        "CozyStudios"
+	],
+	"contact": {
+		"homepage": "https://discord.gg/cozycord/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod",
+        "tokimi": "https://linktr.ee/iamtokimi",
+        "cozystudios": "https://modrinth.com/organization/cozystudios"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/froglightsreimagined/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.cozystudios.froglightsreimagined.FroglightsReimaginedCore"
+		],
+		"client": [
+			"net.cozystudios.froglightsreimagined.FroglightsReimaginedCoreClient"
+		],
+		"fabric-datagen": [
+			"net.cozystudios.froglightsreimagined.FroglightsReimaginedCoreDataGenerator"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
