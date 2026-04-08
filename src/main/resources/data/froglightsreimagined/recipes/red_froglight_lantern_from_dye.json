@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "group": "froglight_lantern_recolor",
+    "ingredients": [
+        {
+            "tag": "froglightsreimagined:froglight_lanterns"
+        },
+        {
+            "item": "minecraft:red_dye"
+        }
+    ],
+    "result": {
+        "item": "froglightsreimagined:red_froglight_lantern"
+    }
+}

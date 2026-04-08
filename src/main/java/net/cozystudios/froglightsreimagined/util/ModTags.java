@@ -12,6 +12,9 @@ public class ModTags {
         public static final TagKey<Block> FROGLIGHTS =
                 createBlockTag("froglights");
 
+        public static final TagKey<Block> FROGLIGHT_LANTERNS =
+                createBlockTag("froglight_lanterns");
+
         private static TagKey<Block> createBlockTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, new Identifier(FroglightsReimaginedCore.MOD_ID, name));
         }

@@ -2,6 +2,7 @@ package net.cozystudios.froglightsreimagined;
 
 import net.cozystudios.froglightsreimagined.datagen.ModBlockLootTableGenerator;
 import net.cozystudios.froglightsreimagined.datagen.ModBlockTagProvider;
+import net.cozystudios.froglightsreimagined.datagen.ModModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
@@ -12,6 +13,7 @@ public class FroglightsReimaginedCoreDataGenerator implements DataGeneratorEntry
 
         pack.addProvider(ModBlockLootTableGenerator::new);
         pack.addProvider(ModBlockTagProvider::new);
+        pack.addProvider(ModModelProvider::new);
 
 	}
 }

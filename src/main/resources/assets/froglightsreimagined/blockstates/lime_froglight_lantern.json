@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "froglightsreimagined:block/lime_froglight_lantern"
+    },
+    "hanging=true": {
+      "model": "froglightsreimagined:block/lime_hanging_lantern"
+    }
+  }
+}

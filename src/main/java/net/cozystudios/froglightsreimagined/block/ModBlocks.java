@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.LanternBlock;
 import net.minecraft.block.PillarBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -31,6 +32,33 @@ public class ModBlocks {
     public static final Block GRAY_FROGLIGHT = registerFroglight("gray_froglight");
     public static final Block BLACK_FROGLIGHT = registerFroglight("black_froglight");
     public static final Block BROWN_FROGLIGHT = registerFroglight("brown_froglight");
+
+    public static final Block RED_FROGLIGHT_LANTERN = registerFroglightLantern("red_froglight_lantern");
+    public static final Block ORANGE_FROGLIGHT_LANTERN = registerFroglightLantern("orange_froglight_lantern");
+    public static final Block YELLOW_FROGLIGHT_LANTERN = registerFroglightLantern("yellow_froglight_lantern");
+    public static final Block LIME_FROGLIGHT_LANTERN = registerFroglightLantern("lime_froglight_lantern");
+    public static final Block GREEN_FROGLIGHT_LANTERN = registerFroglightLantern("green_froglight_lantern");
+    public static final Block BLUE_FROGLIGHT_LANTERN = registerFroglightLantern("blue_froglight_lantern");
+    public static final Block CYAN_FROGLIGHT_LANTERN = registerFroglightLantern("cyan_froglight_lantern");
+    public static final Block LIGHT_BLUE_FROGLIGHT_LANTERN = registerFroglightLantern("light_blue_froglight_lantern");
+    public static final Block MAGENTA_FROGLIGHT_LANTERN = registerFroglightLantern("magenta_froglight_lantern");
+    public static final Block PURPLE_FROGLIGHT_LANTERN = registerFroglightLantern("purple_froglight_lantern");
+    public static final Block PINK_FROGLIGHT_LANTERN = registerFroglightLantern("pink_froglight_lantern");
+    public static final Block WHITE_FROGLIGHT_LANTERN = registerFroglightLantern("white_froglight_lantern");
+    public static final Block LIGHT_GRAY_FROGLIGHT_LANTERN = registerFroglightLantern("light_gray_froglight_lantern");
+    public static final Block GRAY_FROGLIGHT_LANTERN = registerFroglightLantern("gray_froglight_lantern");
+    public static final Block BLACK_FROGLIGHT_LANTERN = registerFroglightLantern("black_froglight_lantern");
+    public static final Block BROWN_FROGLIGHT_LANTERN = registerFroglightLantern("brown_froglight_lantern");
+
+
+
+    private static Block registerFroglightLantern(String name) {
+        return registerBlock(name,
+                new LanternBlock(FabricBlockSettings.copy(Blocks.LANTERN)
+                        .requiresTool()
+                )
+        );
+    }
 
     private static Block registerFroglight(String name) {
         return registerBlock(name,

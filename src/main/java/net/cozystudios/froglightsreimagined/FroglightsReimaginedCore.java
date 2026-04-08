@@ -17,7 +17,6 @@ public class FroglightsReimaginedCore implements ModInitializer {
         ModBlocks.registerModBlocks();
         ModItemGroups.registerItemGroups();
 
-
 		LOGGER.info("FroglightsReimagined initialized!");
 	}
 }

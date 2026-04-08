@@ -33,6 +33,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GRAY_FROGLIGHT);
                         entries.add(ModBlocks.BLACK_FROGLIGHT);
                         entries.add(ModBlocks.BROWN_FROGLIGHT);
+
+                        entries.add(ModBlocks.RED_FROGLIGHT_LANTERN);
+                        entries.add(ModBlocks.ORANGE_FROGLIGHT_LANTERN);
+                        entries.add(ModBlocks.YELLOW_FROGLIGHT_LANTERN);
+                        entries.add(ModBlocks.LIME_FROGLIGHT_LANTERN);
+                        entries.add(ModBlocks.GREEN_FROGLIGHT_LANTERN);
+                        entries.add(ModBlocks.BLUE_FROGLIGHT_LANTERN);
+                        entries.add(ModBlocks.CYAN_FROGLIGHT_LANTERN);
+                        entries.add(ModBlocks.LIGHT_BLUE_FROGLIGHT_LANTERN);
+                        entries.add(ModBlocks.MAGENTA_FROGLIGHT_LANTERN);
+                        entries.add(ModBlocks.PURPLE_FROGLIGHT_LANTERN);
+                        entries.add(ModBlocks.PINK_FROGLIGHT_LANTERN);
+                        entries.add(ModBlocks.WHITE_FROGLIGHT_LANTERN);
+                        entries.add(ModBlocks.LIGHT_GRAY_FROGLIGHT_LANTERN);
+                        entries.add(ModBlocks.GRAY_FROGLIGHT_LANTERN);
+                        entries.add(ModBlocks.BLACK_FROGLIGHT_LANTERN);
+                        entries.add(ModBlocks.BROWN_FROGLIGHT_LANTERN);
                     }).build());
 
     public static void registerItemGroups() {
