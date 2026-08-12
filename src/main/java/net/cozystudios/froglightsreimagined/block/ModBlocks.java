@@ -1,21 +1,34 @@
 package net.cozystudios.froglightsreimagined.block;
 
 import net.cozystudios.froglightsreimagined.FroglightsReimaginedCore;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.cozystudios.froglightsreimagined.util.FroglightsId;
+//? if <1.21 {
+/*import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+*///?}
+//? if >=1.21 {
+import net.minecraft.block.AbstractBlock;
+//?}
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.LanternBlock;
 import net.minecraft.block.PillarBlock;
+//? if >=1.21.4 {
+/*import net.minecraft.item.Items;
+*///?} else {
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+//?}
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+//? if >=1.21.4 {
+/*import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
+*///?}
 
 public class ModBlocks {
 
-    // Froglights
     public static final Block RED_FROGLIGHT = registerFroglight("red_froglight");
     public static final Block ORANGE_FROGLIGHT = registerFroglight("orange_froglight");
     public static final Block YELLOW_FROGLIGHT = registerFroglight("yellow_froglight");
@@ -53,33 +66,76 @@ public class ModBlocks {
 
 
     private static Block registerFroglightLantern(String name) {
+        //? if >=1.21.4 {
+        /*Identifier id = FroglightsId.of(name);
+        RegistryKey<Block> key = RegistryKey.of(RegistryKeys.BLOCK, id);
+        Block block = new LanternBlock(AbstractBlock.Settings.copy(Blocks.LANTERN)
+                .registryKey(key)
+                .requiresTool());
+        Registry.register(Registries.BLOCK, key, block);
+        Items.register(block);
+        return block;
+        *///?} elif >=1.21 {
         return registerBlock(name,
+                new LanternBlock(AbstractBlock.Settings.copy(Blocks.LANTERN)
+                        .requiresTool()
+                )
+        );
+        //?} else {
+        /*return registerBlock(name,
                 new LanternBlock(FabricBlockSettings.copy(Blocks.LANTERN)
                         .requiresTool()
                 )
         );
+        *///?}
     }
 
     private static Block registerFroglight(String name) {
+        //? if >=1.21.4 {
+        /*Identifier id = FroglightsId.of(name);
+        RegistryKey<Block> key = RegistryKey.of(RegistryKeys.BLOCK, id);
+        Block block = new PillarBlock(AbstractBlock.Settings.copy(Blocks.OCHRE_FROGLIGHT)
+                .registryKey(key)
+                .luminance(state -> 15)
+                .requiresTool());
+        Registry.register(Registries.BLOCK, key, block);
+        Items.register(block);
+        return block;
+        *///?} elif >=1.21 {
         return registerBlock(name,
+                new PillarBlock(AbstractBlock.Settings.copy(Blocks.OCHRE_FROGLIGHT)
+                        .luminance(state -> 15)
+                        .requiresTool()
+                )
+        );
+        //?} else {
+        /*return registerBlock(name,
                 new PillarBlock(FabricBlockSettings.copyOf(Blocks.OCHRE_FROGLIGHT)
                         .luminance(15)
                         .requiresTool()
                 )
         );
+        *///?}
     }
 
+    //? if <1.21.4 {
     @SuppressWarnings("SameParameterValue")
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, new Identifier(FroglightsReimaginedCore.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, FroglightsId.of(name), block);
     }
 
     @SuppressWarnings("UnusedReturnValue")
     private static Item registerBlockItem(String name, Block block) {
-        return Registry.register(Registries.ITEM, new Identifier(FroglightsReimaginedCore.MOD_ID, name),
+        //? if >=1.21 {
+        return Registry.register(Registries.ITEM, FroglightsId.of(name),
+                new BlockItem(block, new Item.Settings()));
+        //?} else {
+        /*return Registry.register(Registries.ITEM, FroglightsId.of(name),
                 new BlockItem(block, new FabricItemSettings()));
+        *///?}
     }
+    //?}
 
     public static void registerModBlocks() {
         FroglightsReimaginedCore.LOGGER.info("Registering ModBlocks for " + FroglightsReimaginedCore.MOD_ID);

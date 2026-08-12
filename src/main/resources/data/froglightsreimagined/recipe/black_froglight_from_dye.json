@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "froglight_recolor",
+  "ingredients": [
+    "#froglightsreimagined:froglights",
+    "minecraft:black_dye"
+  ],
+  "result": {
+    "id": "froglightsreimagined:black_froglight",
+    "count": 1
+  }
+}

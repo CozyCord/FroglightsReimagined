@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CPC",
+    "P#P",
+    "CPC"
+  ],
+  "key": {
+    "P": "minecraft:paper",
+    "#": "#minecraft:candles",
+    "C": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "id": "minecraft:pearlescent_froglight",
+    "count": 1
+  }
+}

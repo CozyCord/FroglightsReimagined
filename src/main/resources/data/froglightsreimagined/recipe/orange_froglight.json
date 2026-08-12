@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CPC",
+    "P#P",
+    "CPC"
+  ],
+  "key": {
+    "P": "minecraft:paper",
+    "#": "#minecraft:candles",
+    "C": "minecraft:orange_stained_glass_pane"
+  },
+  "result": {
+    "id": "froglightsreimagined:orange_froglight",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "froglight_recolor",
+  "ingredients": [
+    {
+      "tag": "froglightsreimagined:froglights"
+    },
+    {
+      "item": "minecraft:cyan_dye"
+    }
+  ],
+  "result": {
+    "id": "froglightsreimagined:cyan_froglight",
+    "count": 1
+  }
+}

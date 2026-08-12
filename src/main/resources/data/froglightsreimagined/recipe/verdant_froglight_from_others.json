@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "froglight_recolor",
+  "ingredients": [
+    "#froglightsreimagined:froglights",
+    "minecraft:kelp"
+  ],
+  "result": {
+    "id": "minecraft:verdant_froglight",
+    "count": 1
+  }
+}

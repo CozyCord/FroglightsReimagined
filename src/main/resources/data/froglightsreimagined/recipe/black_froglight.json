@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CPC",
+    "P#P",
+    "CPC"
+  ],
+  "key": {
+    "P": "minecraft:paper",
+    "#": "#minecraft:candles",
+    "C": "minecraft:black_stained_glass_pane"
+  },
+  "result": {
+    "id": "froglightsreimagined:black_froglight",
+    "count": 1
+  }
+}

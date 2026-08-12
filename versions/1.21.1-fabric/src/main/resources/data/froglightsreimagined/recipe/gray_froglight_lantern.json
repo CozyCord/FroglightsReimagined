@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "froglight_lantern_creation",
+  "ingredients": [
+    {
+      "item": "minecraft:lantern"
+    },
+    {
+      "item": "froglightsreimagined:gray_froglight"
+    }
+  ],
+  "result": {
+    "id": "froglightsreimagined:gray_froglight_lantern",
+    "count": 1
+  }
+}

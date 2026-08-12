@@ -1,40 +1,50 @@
-# gradle
-
+# Gradle
 .gradle/
 build/
 out/
 classes/
+bin/
+!gradle/wrapper/gradle-wrapper.jar
 
-# eclipse
+# Stonecutter per-version build artifacts
+versions/*/.gradle/
+versions/*/build/
+versions/*/bin/
+versions/*/out/
+versions/*/run/
 
-*.launch
-
-# idea
-
+# IntelliJ IDEA
 .idea/
 *.iml
 *.ipr
 *.iws
 
-# vscode
-
-.settings/
+# VS Code
 .vscode/
-bin/
+*.code-workspace
+
+# Eclipse
+.settings/
 .classpath
 .project
+*.launch
 
-# macos
+# GitHub-side tooling (not project source)
+.github/
 
-*.DS_Store
-
-# fabric
-
+# Fabric / Minecraft runtime
 run/
 
-# java
+# OS
+.DS_Store
+Thumbs.db
 
+# Java crash / profiling
 hs_err_*.log
 replay_*.log
 *.hprof
 *.jfr
+
+# Local
+local.properties
+secrets.gradle
