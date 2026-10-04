@@ -50,6 +50,40 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GRAY_FROGLIGHT_LANTERN);
                         entries.add(ModBlocks.BLACK_FROGLIGHT_LANTERN);
                         entries.add(ModBlocks.BROWN_FROGLIGHT_LANTERN);
+
+                        entries.add(ModBlocks.RED_FROGLIGHT_CEILING_LAMP);
+                        entries.add(ModBlocks.ORANGE_FROGLIGHT_CEILING_LAMP);
+                        entries.add(ModBlocks.YELLOW_FROGLIGHT_CEILING_LAMP);
+                        entries.add(ModBlocks.LIME_FROGLIGHT_CEILING_LAMP);
+                        entries.add(ModBlocks.GREEN_FROGLIGHT_CEILING_LAMP);
+                        entries.add(ModBlocks.BLUE_FROGLIGHT_CEILING_LAMP);
+                        entries.add(ModBlocks.CYAN_FROGLIGHT_CEILING_LAMP);
+                        entries.add(ModBlocks.LIGHT_BLUE_FROGLIGHT_CEILING_LAMP);
+                        entries.add(ModBlocks.MAGENTA_FROGLIGHT_CEILING_LAMP);
+                        entries.add(ModBlocks.PURPLE_FROGLIGHT_CEILING_LAMP);
+                        entries.add(ModBlocks.PINK_FROGLIGHT_CEILING_LAMP);
+                        entries.add(ModBlocks.WHITE_FROGLIGHT_CEILING_LAMP);
+                        entries.add(ModBlocks.LIGHT_GRAY_FROGLIGHT_CEILING_LAMP);
+                        entries.add(ModBlocks.GRAY_FROGLIGHT_CEILING_LAMP);
+                        entries.add(ModBlocks.BLACK_FROGLIGHT_CEILING_LAMP);
+                        entries.add(ModBlocks.BROWN_FROGLIGHT_CEILING_LAMP);
+
+                        entries.add(ModBlocks.RED_FROGLIGHT_FLOOR_LAMP);
+                        entries.add(ModBlocks.ORANGE_FROGLIGHT_FLOOR_LAMP);
+                        entries.add(ModBlocks.YELLOW_FROGLIGHT_FLOOR_LAMP);
+                        entries.add(ModBlocks.LIME_FROGLIGHT_FLOOR_LAMP);
+                        entries.add(ModBlocks.GREEN_FROGLIGHT_FLOOR_LAMP);
+                        entries.add(ModBlocks.BLUE_FROGLIGHT_FLOOR_LAMP);
+                        entries.add(ModBlocks.CYAN_FROGLIGHT_FLOOR_LAMP);
+                        entries.add(ModBlocks.LIGHT_BLUE_FROGLIGHT_FLOOR_LAMP);
+                        entries.add(ModBlocks.MAGENTA_FROGLIGHT_FLOOR_LAMP);
+                        entries.add(ModBlocks.PURPLE_FROGLIGHT_FLOOR_LAMP);
+                        entries.add(ModBlocks.PINK_FROGLIGHT_FLOOR_LAMP);
+                        entries.add(ModBlocks.WHITE_FROGLIGHT_FLOOR_LAMP);
+                        entries.add(ModBlocks.LIGHT_GRAY_FROGLIGHT_FLOOR_LAMP);
+                        entries.add(ModBlocks.GRAY_FROGLIGHT_FLOOR_LAMP);
+                        entries.add(ModBlocks.BLACK_FROGLIGHT_FLOOR_LAMP);
+                        entries.add(ModBlocks.BROWN_FROGLIGHT_FLOOR_LAMP);
                     }).build());
 
     public static void registerItemGroups() {

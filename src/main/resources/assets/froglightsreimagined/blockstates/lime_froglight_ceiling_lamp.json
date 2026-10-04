@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true":  { "model": "froglightsreimagined:block/lime_froglight_ceiling_lamp" },
+    "lit=false": { "model": "froglightsreimagined:block/lime_froglight_ceiling_lamp" }
+  }
+}

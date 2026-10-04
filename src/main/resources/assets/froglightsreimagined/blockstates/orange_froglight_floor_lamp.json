@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true":  { "model": "froglightsreimagined:block/orange_froglight_floor_lamp" },
+    "lit=false": { "model": "froglightsreimagined:block/orange_froglight_floor_lamp" }
+  }
+}
