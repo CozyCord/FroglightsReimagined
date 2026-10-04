@@ -1,17 +1,14 @@
 {
-    "key":  {
-                "C":  "minecraft:chain",
-                "W":  "minecraft:cyan_wool",
-                "F":  "froglightsreimagined:cyan_froglight"
-            },
-    "pattern":  [
-                    " W ",
-                    "WFW",
-                    " C "
-                ],
-    "result":  {
-                   "id":  "froglightsreimagined:cyan_froglight_floor_lamp",
-                   "count":  1
-               },
-    "type":  "minecraft:crafting_shaped"
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    "WFW",
+    " C "
+  ],
+  "key": {
+    "C": "minecraft:chain",
+    "W": "minecraft:cyan_wool",
+    "F": "froglightsreimagined:cyan_froglight"
+  },
+  "result": { "id": "froglightsreimagined:cyan_froglight_floor_lamp", "count": 1 }
 }

@@ -23,3 +23,23 @@ dependencies {
         modImplementation("net.fabricmc.fabric-api:fabric-api:${mod.prop("fabric_version")}")
     }
 }
+
+sourceSets {
+    main {
+        resources {
+            srcDir("src/main/resources")
+        }
+    }
+}
+
+tasks.processResources {
+    doLast {
+        val versionDataDir = file("src/main/resources/data")
+        if (versionDataDir.exists() && versionDataDir.isDirectory) {
+            copy {
+                from(versionDataDir)
+                into(layout.buildDirectory.dir("resources/main/data"))
+            }
+        }
+    }
+}

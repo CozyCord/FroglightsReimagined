@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    "WFW",
+    " C "
+  ],
+  "key": {
+    "C": { "item": "minecraft:chain" },
+    "W": { "item": "minecraft:light_blue_wool" },
+    "F": { "item": "froglightsreimagined:light_blue_froglight" }
+  },
+  "result": { "id": "froglightsreimagined:light_blue_froglight_floor_lamp", "count": 1 }
+}

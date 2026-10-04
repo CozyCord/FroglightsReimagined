@@ -1,17 +1,14 @@
 {
-    "key":  {
-                "C":  "minecraft:chain",
-                "W":  "minecraft:green_wool",
-                "F":  "froglightsreimagined:green_froglight"
-            },
-    "pattern":  [
-                    " C ",
-                    "WWW",
-                    " F "
-                ],
-    "result":  {
-                   "id":  "froglightsreimagined:green_froglight_ceiling_lamp",
-                   "count":  1
-               },
-    "type":  "minecraft:crafting_shaped"
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "WWW",
+    " F "
+  ],
+  "key": {
+    "C": "minecraft:chain",
+    "W": "minecraft:green_wool",
+    "F": "froglightsreimagined:green_froglight"
+  },
+  "result": { "id": "froglightsreimagined:green_froglight_ceiling_lamp", "count": 1 }
 }

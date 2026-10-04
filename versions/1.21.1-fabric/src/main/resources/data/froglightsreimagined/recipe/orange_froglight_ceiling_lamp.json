@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "WWW",
+    " F "
+  ],
+  "key": {
+    "C": { "item": "minecraft:chain" },
+    "W": { "item": "minecraft:orange_wool" },
+    "F": { "item": "froglightsreimagined:orange_froglight" }
+  },
+  "result": { "id": "froglightsreimagined:orange_froglight_ceiling_lamp", "count": 1 }
+}

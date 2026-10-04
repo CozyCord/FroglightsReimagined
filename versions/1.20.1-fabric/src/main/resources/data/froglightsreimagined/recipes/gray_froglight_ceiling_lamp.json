@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "WWW",
+    " F "
+  ],
+  "key": {
+    "C": { "item": "minecraft:chain" },
+    "W": { "item": "minecraft:gray_wool" },
+    "F": { "item": "froglightsreimagined:gray_froglight" }
+  },
+  "result": { "item": "froglightsreimagined:gray_froglight_ceiling_lamp" }
+}

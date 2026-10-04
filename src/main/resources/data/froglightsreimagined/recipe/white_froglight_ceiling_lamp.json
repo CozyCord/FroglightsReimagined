@@ -1,17 +1,14 @@
 {
-    "key":  {
-                "C":  "minecraft:chain",
-                "W":  "minecraft:white_wool",
-                "F":  "froglightsreimagined:white_froglight"
-            },
-    "pattern":  [
-                    " C ",
-                    "WWW",
-                    " F "
-                ],
-    "result":  {
-                   "id":  "froglightsreimagined:white_froglight_ceiling_lamp",
-                   "count":  1
-               },
-    "type":  "minecraft:crafting_shaped"
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "WWW",
+    " F "
+  ],
+  "key": {
+    "C": "minecraft:chain",
+    "W": "minecraft:white_wool",
+    "F": "froglightsreimagined:white_froglight"
+  },
+  "result": { "id": "froglightsreimagined:white_froglight_ceiling_lamp", "count": 1 }
 }
